@@ -1,0 +1,44 @@
+¿Cuándo usar clustering?
+
+El clustering es una técnica de aprendizaje no supervisado que se utiliza para encontrar patrones y estructuras en los datos. Se puede utilizar en diversas situaciones y contextos donde se desea identificar grupos o categorías naturales en los datos sin tener una variable objetivo predefinida.
+
+A continuación, se describen algunos casos en los que se puede utilizar clustering:
+
+Mayor contexto de mi datasets: Al segmentar los grupos por similitudes es ás fácil analizar los diferentes clusterings que genera hay mayor contexto de qué analizar de cada clustering en específico.
+
+Detección de outliers: El clustering también puede utilizarse para detectar outliers o valores atípicos en los datos que no siguen el patrón de los demás valores. Esto puede ser útil para identificar problemas o errores en los datos o para identificar posibles anomalías o excepciones en los datos.
+
+Clasificar/Agrupar (sin variable objetivo): El clustering se utiliza comúnmente para clasificar y agrupar datos en categorías o grupos basados en características similares. Esto puede ser útil para identificar patrones en los datos y para simplificar la visualización y el análisis de grandes conjuntos de datos.
+
+
+Tareas manuales de crear etiquetas: En algunos casos, es posible que no haya una variable objetivo clara o definida en los datos. En este caso, el clustering puede ser utilizado para agrupar los datos en categorías o grupos que pueden ser etiquetados manualmente para su posterior análisis.
+
+En cuanto a lo que se puede lograr con el clustering, aquí hay algunos ejemplos:
+
+Clasificar el tráfico en una página: El clustering puede utilizarse para identificar patrones en el tráfico de una página web y clasificar a los visitantes en diferentes categorías, como nuevos visitantes, visitantes frecuentes, visitantes que compran con frecuencia, etc.
+
+Segmentación de perfiles de clientes: El clustering puede ayudar a identificar patrones en los datos de los clientes y segmentarlos en diferentes grupos basados en características similares, como edad, género, ubicación, historial de compras, etc. Se puede segmentar los clientes en diferentes grupos (Bronce, plata, oro) Esto sirve para atacar el mercado.
+
+Clasificación de contenido: El clustering puede utilizarse para clasificar contenido en diferentes categorías, como noticias, entretenimiento, deportes, etc.
+
+Identificar comportamientos fraudulentos: El clustering puede ser utilizado para identificar patrones en los datos que pueden indicar comportamientos fraudulentos o sospechosos, como transacciones inusuales o actividades sospechosas.
+
+Ciencia en los deportes: El clustering puede ser utilizado en el análisis de datos en la ciencia en los deportes para identificar patrones en los datos relacionados con el rendimiento de los atletas, la eficacia de las tácticas de juego, etc.
+
+Ciencia en los deportes: El clustering también puede ser utilizado en la ciencia en los deportes para segmentar a los fanáticos en diferentes grupos basados en su comportamiento, preferencias, etc.
+
+Muchas posibilidades: El clustering puede ser utilizado en una amplia variedad de situaciones y contextos, desde el análisis de datos empresariales hasta la exploración de datos en la investigación científica y médica.
+
+
+
+PASOS
+
+
+
+Indicar cantidad de clusters.
+Ubicar centroides aleatoriamente. Por cada cluster un centroide.
+Cada punto se asigna al centroide más cercano. cada daatpoint se asigna a un centroide
+Recalcular centroides con el promedio. Se recalcula al promedio más cercano de cada centroide.
+Repetir paso 3 y 4 hasta que no se mueven los centroides. Cuando no se mueven más ya ubicaron su centroide.
+
+Reducir la distancia elevada al cuadrado.
