@@ -1,0 +1,44 @@
+Acuraccy: proporción de las predicciones correctas
+
+Precision: proporción de predicciones 
+correctas entre todas las predicciones realizadas para la clase positiva. de todas las veces que el modelo predijo que una instancia era positiva, 
+¿qué porcentaje de esas predicciones fueron correctas?
+Precisión alta: Un modelo con alta precisión comete pocos falsos positivos.
+
+Alto Recall, Baja Precisión: El modelo es más agresivo en sus predicciones 
+positivas. Captura la mayoría de los positivos, pero al hacerlo también comete más 
+errores al clasificar negativos como positivos (alto FP)
+
+
+Relación entre Precisión y Recall
+Precisión vs Sensibilidad:
+
+
+Recordar los modelos de aprendizaje
+Que para cada uno hay métricas diferentes
+
+En cuanto a contenido 
+En qué ejemplos se utilizaría cada uno
+Explicar que estas ecuaciones ya están propuestas...
+En qué escenarios se aplicaría cada una...
+Ej: Recall porque optimiza los falsos positivos
+Una forma más funcional que técnica
+
+hay otros modelos llamados: Detección de anomalías
+
+Poner conclusiones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
